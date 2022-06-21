@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUI.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuForm.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="displayItem.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="mysql.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="login.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="getdate.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="checkType.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="returnitem.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="borrowForm.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="loanRecordForm.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="equipmentListForm.cpp">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+    <ClCompile Include="insertdata.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="insertFile.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="adminMenu.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="update.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="createDB.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="displayloanRecord.cpp">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+    <ClCompile Include="configForm.cpp">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GUI.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuForm.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="displayItem.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="borrowForm.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="getdate.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="checkType.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="returnitem.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="loanRecordForm.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="adminMenu.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="insertFile.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="equipmentListForm.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="insertdata.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="update.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="createDB.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="displayloanRecord.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="configForm.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GUI.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="displayItem.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="borrowForm.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="returnitem.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loanRecordForm.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminMenu.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insertFile.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="equipmentListForm.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="displayloanRecord.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="configForm.resx">
+      <Filter>資源檔</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\Project\user.txt">
+      <Filter>資源檔</Filter>
+    </Text>
+    <Text Include="..\..\Project\camp_equipment.txt">
+      <Filter>資源檔</Filter>
+    </Text>
+    <Text Include="user01.txt">
+      <Filter>資源檔</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GUIProject.rc">
+      <Filter>資源檔</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
